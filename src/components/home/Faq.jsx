@@ -1,6 +1,6 @@
-import styles, { layout } from "../style";
+import styles, { layout } from "../../style";
 import { Link } from "react-router-dom";
-import { fadeInVariants, slideInFromLeft, slideInFromRight } from "../utils/index.js";
+import { fadeInVariants, slideInFromLeft, slideInFromRight } from "../../utils";
 import { motion } from "framer-motion";
 
 const Faq = () => (

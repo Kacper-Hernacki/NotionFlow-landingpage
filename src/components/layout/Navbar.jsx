@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { close, logo, menu } from "../assets";
-import { navLinks } from "../constants";
+import { close, logo, menu } from "../../assets";
+import { navLinks } from "../../constants";
 import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
@@ -30,7 +30,7 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <div className="sm:hidden flex flex-1 justify-end items-center">
+          <div className="sm:hidden flex flex-1 justify-end items-center cursor-pointer">
             <img
               src={toggle ? close : menu}
               alt="menu"
@@ -47,7 +47,7 @@ const Navbar = () => {
                 {navLinks.map((nav, index) => (
                   <li
                     key={nav.id}
-                    className={`font-poppins font-medium cursor-pointer text-[16px] ${
+                    className={`font-poppins font-medium cursor-pointer text-[16px] hover:text-[#32bbcf] ${
                       active === nav.title ? "text-white" : "text-dimWhite"
                     } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
                     onClick={() => setActive(nav.title)}

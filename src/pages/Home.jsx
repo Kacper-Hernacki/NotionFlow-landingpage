@@ -1,5 +1,5 @@
 import { Bio, Business, CTA, Demo, Faq, Hero, JoinWaitlist, Platforms, Pricing } from "../components";
-import styles from "../style.js";
+import styles from "../style";
 
 const Home = () => (
   <main>

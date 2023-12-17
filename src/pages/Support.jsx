@@ -1,4 +1,4 @@
-import styles from "../style.js";
+import styles from "../style";
 
 const Support = () => (
   <main className="max-w-3xl mx-auto text-center min-h-custom grid items-center">

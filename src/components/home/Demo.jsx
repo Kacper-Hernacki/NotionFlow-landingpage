@@ -1,5 +1,5 @@
-import styles from "../style";
-import { fadeInVariants, slideInFromLeft, slideInFromRight } from "../utils/index.js";
+import styles from "../../style";
+import { fadeInVariants, slideInFromLeft, slideInFromRight } from "../../utils";
 import { motion } from "framer-motion";
 
 const Demo = () => (

@@ -1,6 +1,6 @@
-import { platforms } from "../constants";
-import styles from "../style";
-import { fadeInVariants, slideInFromLeft } from "../utils/index.js";
+import { platforms } from "../../constants";
+import styles from "../../style";
+import { fadeInVariants, slideInFromLeft } from "../../utils";
 import { motion } from "framer-motion";
 
 const Platforms = () => (

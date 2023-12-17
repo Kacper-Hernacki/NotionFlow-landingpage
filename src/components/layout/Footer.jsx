@@ -1,6 +1,6 @@
-import styles from "../style";
-import { logo } from "../assets";
-import { footerLinks, socialMedia } from "../constants";
+import styles from "../../style";
+import { logo } from "../../assets";
+import { footerLinks, socialMedia } from "../../constants";
 import { Link } from "react-router-dom";
 
 const Footer = () => (

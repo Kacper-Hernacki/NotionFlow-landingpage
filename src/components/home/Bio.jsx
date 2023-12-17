@@ -1,7 +1,7 @@
-import { layout } from "../style";
+import { layout } from "../../style.js";
 import { Link } from "react-router-dom";
-import { moderndev } from "../assets/index.js";
-import { fadeInVariants, slideInFromTop } from "../utils/index.js";
+import { moderndev } from "../../assets";
+import { fadeInVariants, slideInFromTop } from "../../utils";
 import { motion } from "framer-motion";
 
 const Bio = () => (

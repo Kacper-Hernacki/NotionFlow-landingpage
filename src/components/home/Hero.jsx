@@ -1,8 +1,8 @@
-import styles from "../style";
-import { gitCloneNotionFlow, notionFlow } from "../assets";
-import Button from "./Button.jsx";
+import styles from "../../style";
+import { gitCloneNotionFlow, notionFlow } from "../../assets";
+import Button from "../waitlist/Button.jsx";
 import { motion } from "framer-motion";
-import { fadeInVariants, slideInFromLeft, slideInFromRight } from "../utils/index.js";
+import { fadeInVariants, slideInFromLeft, slideInFromRight } from "../../utils";
 
 const Hero = () => {
   return (

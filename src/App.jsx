@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { Docs, Home, Licenses, Privacy, Support, Terms } from "./pages";
+import { Docs, Home, Licenses, NotFound, Privacy, Support, Terms } from "./pages";
 import { MainLayout } from "./layouts";
 
 function App() {
@@ -13,6 +13,8 @@ function App() {
           <Route path="/privacy-policy" element={<Privacy />} />
           <Route path="/docs" element={<Docs />} />
           <Route path="/support" element={<Support />} />
+          {/* Handle unmatched routes */}
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </MainLayout>
     </Router>

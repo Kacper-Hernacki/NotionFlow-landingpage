@@ -1,5 +1,5 @@
 import { Footer, Navbar } from "../components";
-import styles from "../style.js";
+import styles from "../style";
 function Layout({ children }) {
   return (
     <div className="bg-primary w-full overflow-hidden">

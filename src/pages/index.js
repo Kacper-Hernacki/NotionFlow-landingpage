@@ -4,6 +4,7 @@ import Licenses from './Licenses'
 import Support from './Support'
 import Privacy from './Privacy'
 import Home from './Home'
+import NotFound from './NotFound'
 
 export {
   Docs,
@@ -11,5 +12,6 @@ export {
   Licenses,
   Support,
   Privacy,
-  Home
+  Home,
+  NotFound
 }

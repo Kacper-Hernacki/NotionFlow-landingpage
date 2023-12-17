@@ -1,6 +1,6 @@
-import styles from "../style";
-import Button from "./Button.jsx";
-import { fadeInVariants, slideInFromBottom } from "../utils/index.js";
+import styles from "../../style.js";
+import Button from "../waitlist/Button.jsx";
+import { fadeInVariants, slideInFromBottom } from "../../utils";
 import { motion } from "framer-motion";
 const CTA = () => (
   <motion.div

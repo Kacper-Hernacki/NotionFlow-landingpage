@@ -50,7 +50,7 @@ const Footer = () => (
         Copyright Ⓒ 2023 NotionFlow. All Rights Reserved.
       </p>
 
-      <div className="flex flex-row md:mt-0 mt-6">
+      <div className="flex flex-row md:mt-0 mt-6 pb-4">
         {socialMedia.map((social, index) => (
           <img
             key={social.id}

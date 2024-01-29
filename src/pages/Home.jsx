@@ -4,8 +4,8 @@ import styles from "../style";
 const Home = () => (
   <main>
     <JoinWaitlist />
-    <div className={`bg-primary ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
+    <div className={`bg-primary flex items-start justify-center`}>
+      <div>
         <Hero />
       </div>
     </div>

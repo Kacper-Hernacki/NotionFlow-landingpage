@@ -13,6 +13,7 @@ function App() {
           <Route path="/privacy-policy" element={<Privacy />} />
           <Route path="/docs" element={<Docs />} />
           <Route path="/support" element={<Support />} />
+          <Route path="/docs" element={<Docs/>} />
           {/* Handle unmatched routes */}
           <Route path="*" element={<NotFound />} />
         </Routes>

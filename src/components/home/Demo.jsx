@@ -1,6 +1,8 @@
 import styles from "../../style";
 import { fadeInVariants, slideInFromLeft, slideInFromRight } from "../../utils";
 import { motion } from "framer-motion";
+import LiteYouTubeEmbed from 'react-lite-youtube-embed';
+import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
 
 const Demo = () => (
   <section id="demo" className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}>
@@ -18,7 +20,7 @@ const Demo = () => (
           variants={slideInFromLeft}
           className="w-full">
           <h2 className={styles.heading2}>
-            Demo will be soon
+            Demo of the product
           </h2>
         </motion.div>
       </motion.div>
@@ -35,14 +37,11 @@ const Demo = () => (
           className="w-full"
         >
           <div className="w-full md:mt-0 mt-6">
-            <p className={`${styles.paragraph} text-left max-w-[450px]`}>
-              Demo video will be available by the end of the year
-            </p>
+            <LiteYouTubeEmbed id="d3OaXOwuq80" title="NotionFlow demo"/>
           </div>
         </motion.div>
       </motion.div>
     </div>
-
 
   </section>
 );

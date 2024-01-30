@@ -64,17 +64,17 @@ const Pricing = () => (
                 <p className="mt-6 flex items-baseline gap-x-1">
                   <span className="line-through text-2xl font-sans text-gray-500/70">$29</span><span
                   className="text-5xl font-bold tracking-tight text-gray-400">$9</span>
-                  One time payment
+                  paid once
                 </p>
                 <Link target="_blank" to={'https://hernackikacper.gumroad.com/l/notionflow-standard'}>
                   <button
                     aria-describedby="tier-standard"
-                    className="w-full text-primary bg-yellow-300 rounded-[10px] outline-none mt-10 block py-2 px-3 text-center text-base font-medium leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+                    className="w-full text-primary bg-yellow-300 rounded-[10px] outline-none mt-12 block py-2 px-3 text-center text-base font-medium leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
                   >
                     Get Now
                   </button>
                 </Link>
-                <ul role="list" className="mt-8 space-y-3 text-sm leading-6 text-yellow-300 xl:mt-10">
+                <ul role="list" className="mt-8 space-y-3 text-sm leading-6 xl:mt-10">
                   <li className="flex gap-x-3 text-base">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                          stroke="currentColor" aria-hidden="true" className="h-6 w-5 flex-none text-yellow-300">
@@ -155,15 +155,15 @@ const Pricing = () => (
                 <p className="mt-6 flex items-baseline gap-x-1">
                   <span className="line-through text-2xl font-sans text-gray-500/70">$59</span><span
                   className="text-5xl font-bold tracking-tight text-gray-400">$29</span>
-                  One time payment
+                  paid once
                 </p>
                 <button
                   onClick={() => document.getElementById("my_modal_2").showModal()}
                   aria-describedby="tier-standard"
-                  className="w-full text-[#32bbcf] ring-1 ring-inset ring-[#32bbcf] hover:ring-blue-300 mt-6 block rounded-md py-2 px-3 text-center text-base font-medium leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+                  className="w-full text-[#32bbcf] ring-1 ring-inset ring-[#32bbcf] hover:ring-blue-300 mt-12 block rounded-md py-2 px-3 text-center text-base font-medium leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
                 >Available soon
                 </button>
-                <ul role="list" className="mt-8 space-y-3 text-sm leading-6 text-gray-600 xl:mt-10">
+                <ul role="list" className="mt-8 space-y-3 text-sm leading-6 xl:mt-10">
                   <li className="flex gap-x-3 text-base">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                          stroke="currentColor" aria-hidden="true" className="h-6 w-5 flex-none text-[#32bbcf]">
@@ -231,22 +231,22 @@ const Pricing = () => (
                 <div className="flex items-center justify-between gap-x-4">
                   <h3 id="tier-extended" className="text-[#32bbcf] text-2xl font-semibold leading-8">Extended</h3>
                   <p className="rounded-full bg-[#32bbcf] px-2.5 py-1 text-xs font-semibold leading-5 text-gray-950">
-                    Most popular</p>
+                    Popular</p>
                 </div>
                 <p className="mt-4 text-base leading-6 text-gray-600">Web app</p>
                 <p className="mt-6 flex items-baseline gap-x-1">
                   <span className="line-through text-2xl font-sans text-gray-500/70">$99</span><span
                   className="text-5xl font-bold tracking-tight text-[#32bbcf]">$49</span>
-                  One time payment
+                  paid once
                 </p>
                 <button
                   onClick={() => document.getElementById("my_modal_2").showModal()}
                   aria-describedby="tier-extended"
-                  className="w-full bg-[#32bbcf] text-gray-950 shadow-sm hover:bg-gray-950 hover:text-gray-50 mt-6 block rounded-md py-2 px-3 text-center text-base font-medium leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+                  className="w-full bg-[#32bbcf] text-gray-950 shadow-sm hover:bg-gray-950 hover:text-gray-50 mt-12 block rounded-md py-2 px-3 text-center text-base font-medium leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
                 >Available soon
                 </button>
 
-                <ul role="list" className="mt-8 space-y-3 text-sm leading-6 text-gray-600 xl:mt-10">
+                <ul role="list" className="mt-8 space-y-3 text-sm leading-6 xl:mt-10">
                   <li className="flex gap-x-3 text-base">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                          stroke="currentColor" aria-hidden="true" className="h-6 w-5 flex-none text-gray-400">
@@ -343,7 +343,7 @@ const Pricing = () => (
                 <p className="mt-6 flex items-baseline gap-x-1">
                   <span className="line-through text-2xl font-sans text-gray-500/70">$199</span><span
                   className="text-5xl font-bold tracking-tight text-gray-400">$99</span>
-                  One time payment
+                  paid once
                 </p>
                 <button
                   onClick={() => document.getElementById("my_modal_2").showModal()}

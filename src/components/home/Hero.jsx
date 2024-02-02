@@ -1,8 +1,8 @@
 import styles from "../../style";
 import { gitCloneNotionFlow, notionFlow } from "../../assets";
-import Button from "../waitlist/Button.jsx";
 import { motion } from "framer-motion";
 import { fadeInVariants, slideInFromLeft, slideInFromRight } from "../../utils";
+import BuyButton from "../waitlist/BuyButton.jsx";
 
 const Hero = () => {
   return (
@@ -30,7 +30,7 @@ const Hero = () => {
               The NextJS boilerplate with custom NOTION API connection and all you need, dedicated to launch and manage
               content from Notion level.
             </p>
-            <Button styles="mt-8 lg:w-[450px]" onClick={() => document.getElementById("my_modal_2").showModal()} />
+            <BuyButton  />
             <div className="mt-8 flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
               <p className={`${styles.paragraph} ml-2`}>
                 <span className="text-white">50%</span> Discount For{" "}

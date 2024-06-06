@@ -63,7 +63,7 @@ const Pricing = () => (
                 <p className="mt-4 text-base leading-6 text-gray-600">Landing Page</p>
                 <p className="mt-6 flex items-baseline gap-x-1">
                   <span className="line-through text-2xl font-sans text-gray-500/70">$29</span><span
-                  className="text-5xl font-bold tracking-tight text-gray-400">$9</span>
+                  className="text-5xl font-bold tracking-tight text-gray-400">$10</span>
                   paid once
                 </p>
                 <Link target="_blank" to={'https://hernackikacper.gumroad.com/l/notionflow-standard'}>

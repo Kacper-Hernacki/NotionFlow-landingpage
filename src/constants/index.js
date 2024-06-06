@@ -16,6 +16,7 @@ export const navLinks = [
   {
     id: "docs",
     title: "Docs",
+    link:"https://eager-dirt-30f.notion.site/DOCS-e1616040ccef46c581e6e390dab20155"
   },
 ];
 
